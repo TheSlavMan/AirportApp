@@ -19,7 +19,7 @@
         <activity android:name=".EmergencyReport" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".WorkSchedule" />
-        <activity android:name=".FlightAcitivity" />
+        <activity android:name=".FlightActivity" />
         <activity android:name=".PassengerActivity" />
         <activity android:name=".EmployeeActivity" />
         <activity android:name=".LuggageActivity" />

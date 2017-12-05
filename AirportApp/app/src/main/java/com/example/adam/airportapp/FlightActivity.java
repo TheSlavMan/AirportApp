@@ -3,11 +3,11 @@ package com.example.adam.airportapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class FlightAcitivity extends AppCompatActivity {
+public class FlightActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flight_acitivity);
+        setContentView(R.layout.activity_flight);
     }
 }

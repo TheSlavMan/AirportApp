@@ -3,7 +3,6 @@ package com.example.adam.airportapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
 
 public class MainmenuActivity extends AppCompatActivity
@@ -16,7 +15,7 @@ public class MainmenuActivity extends AppCompatActivity
 
     public void flightsClick(View view)
     {
-        Intent flight = new Intent(this, FlightAcitivity.class);
+        Intent flight = new Intent(this, FlightActivity.class);
         startActivity(flight);
     }
 
