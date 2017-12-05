@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adam.airportapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Authenticate">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainmenuActivity" />
+        <activity android:name=".EmergencyReport" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".WorkSchedule" />
+        <activity android:name=".FlightAcitivity" />
+        <activity android:name=".PassengerActivity" />
+        <activity android:name=".EmployeeActivity" />
+        <activity android:name=".LuggageActivity" />
+        <activity android:name=".SecurityActivity" />
+        <activity android:name=".OperationsActivity"></activity>
+    </application>
+
+</manifest>
