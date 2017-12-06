@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
-        android:text="Shops & Duty-Free" />
+        android:text="Shops And Duty-Free" />
 
     <Button
         android:id="@+id/button26"
@@ -44,6 +44,6 @@
         android:layout_below="@+id/button25"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
-        android:text="Inventory & Package Management" />
+        android:text="Inventory And Package Management" />
 
 </RelativeLayout>

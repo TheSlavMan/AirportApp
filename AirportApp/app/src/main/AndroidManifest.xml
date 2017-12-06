@@ -25,7 +25,8 @@
         <activity android:name=".LuggageActivity" />
         <activity android:name=".SecurityActivity" />
         <activity android:name=".OperationsActivity" />
-        <activity android:name=".BookActivity"></activity>
+        <activity android:name=".BookActivity" />
+        <activity android:name=".LuggageList"></activity>
     </application>
 
 </manifest>

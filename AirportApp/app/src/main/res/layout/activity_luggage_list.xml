@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_passenger"
+    android:id="@+id/activity_luggage_list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.adam.airportapp.PassengerActivity">
+    tools:context="com.example.adam.airportapp.LuggageList">
 
     <LinearLayout
         android:orientation="vertical"
@@ -20,9 +20,9 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="165dp"
-            android:layout_weight="1.00"
-            android:background="@drawable/rectangle">
+            android:layout_height="147dp"
+            android:background="@drawable/rectangle"
+            android:layout_weight="0.95">
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -35,25 +35,25 @@
                     android:clickable="true">
 
                     <TextView
-                        android:text="   Full Name   "
+                        android:text="Luggage ID "
                         android:layout_column="5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text=" Age "
+                        android:text="  Owner Name  "
                         android:layout_column="4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="  M/F  "
+                        android:text="  Flight ID  "
                         android:layout_column="3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="      Ticket #      "
+                        android:text="    Ticket #    "
                         android:layout_column="2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -71,19 +71,19 @@
                     android:clickable="true">
 
                     <TextView
-                        android:text="Johnathan Tinkits"
+                        android:text="847596"
                         android:layout_column="5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="30"
+                        android:text="Johnathan Tinkits"
                         android:layout_column="4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="M"
+                        android:text="AC 1020"
                         android:layout_column="3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -95,7 +95,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="BOARDING"
+                        android:text="LOADED"
                         android:layout_column="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -107,19 +107,19 @@
                     android:clickable="true">
 
                     <TextView
-                        android:text="Richard Knubbler"
+                        android:text="472918"
                         android:layout_column="5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="36"
+                        android:text="Richard Knubbler"
                         android:layout_column="4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="M"
+                        android:text="LH 50670"
                         android:layout_column="3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -131,7 +131,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="IN-AIR"
+                        android:text="LOADED"
                         android:layout_column="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -143,19 +143,19 @@
                     android:clickable="true">
 
                     <TextView
-                        android:text="Charles Offdensen"
+                        android:text="381729"
                         android:layout_column="5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="45"
+                        android:text="Charles Offdensen"
                         android:layout_column="4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="M"
+                        android:text="AC 1080"
                         android:layout_column="3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -167,7 +167,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="WAITING"
+                        android:text="PROCESSING"
                         android:layout_column="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -179,19 +179,19 @@
                     android:clickable="true">
 
                     <TextView
-                        android:text="Jean Pierre"
+                        android:text="674185"
                         android:layout_column="5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="29"
+                        android:text="Jean Pierre"
                         android:layout_column="4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="M"
+                        android:text="UA 45671"
                         android:layout_column="3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -203,7 +203,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="WAITING"
+                        android:text="LOADED"
                         android:layout_column="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -215,19 +215,19 @@
                     android:clickable="true">
 
                     <TextView
-                        android:text="Abigail Remeltindric"
+                        android:text="574284"
                         android:layout_column="5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="30"
+                        android:text="Abigail Remeltindric"
                         android:layout_column="4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="F"
+                        android:text="LO 1202"
                         android:layout_column="3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -239,7 +239,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="IN-AIR"
+                        android:text="CHECKED OUT"
                         android:layout_column="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -251,19 +251,19 @@
                     android:clickable="true">
 
                     <TextView
-                        android:text="Leonard Rockstein"
+                        android:text="352154"
                         android:layout_column="5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="27"
+                        android:text="Leonard Rockstein"
                         android:layout_column="4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="M"
+                        android:text="AC 1080"
                         android:layout_column="3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -275,7 +275,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="IN-AIR"
+                        android:text="PICKUP"
                         android:layout_column="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -287,19 +287,19 @@
                     android:clickable="true">
 
                     <TextView
-                        android:text="Edgar Jomfru"
+                        android:text="145784"
                         android:layout_column="5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="23"
+                        android:text="Edgar Jomfru"
                         android:layout_column="4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="M"
+                        android:text="SW 1127"
                         android:layout_column="3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -311,7 +311,7 @@
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:text="BOARDING"
+                        android:text="PROCESSING"
                         android:layout_column="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
@@ -321,17 +321,11 @@
         </ScrollView>
 
         <Button
-            android:text="View Passenger"
+            android:text="Manage Luggage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button21"
-            android:onClick="viewClicked" />
-
-        <Button
-            android:text="Manage Passenger"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button28"
+            android:id="@+id/button30"
             android:onClick="manageClicked" />
+
     </LinearLayout>
 </RelativeLayout>

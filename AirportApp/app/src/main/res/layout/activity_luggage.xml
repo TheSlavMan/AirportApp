@@ -19,26 +19,6 @@
         android:text="Register Luggage"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView7"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Ticket #" />
-
-    <Button
-        android:id="@+id/button22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="21dp"
-        android:text="Register" />
-
     <Button
         android:id="@+id/button24"
         android:layout_width="wrap_content"
@@ -46,5 +26,37 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="41dp"
-        android:text="        Luggage List        " />
+        android:text="        Luggage List        "
+        android:onClick="listClicked" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:onClick="registerClicked" />
+
+    <TextView
+        android:text="Ticket #:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_toLeftOf="@+id/button24"
+        android:layout_toStartOf="@+id/button24" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#C0C0C0"
+        android:layout_below="@+id/textView7"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
 </RelativeLayout>

@@ -298,12 +298,14 @@
             android:text="Manage Flight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button12" />
+            android:id="@+id/button12"
+            android:onClick="manageClicked" />
 
         <Button
             android:text="Filter"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button14" />
+            android:id="@+id/button14"
+            android:onClick="filterClicked" />
     </LinearLayout>
 </RelativeLayout>
