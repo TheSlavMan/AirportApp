@@ -23,9 +23,9 @@
         android:id="@+id/button26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button25"
+        android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="76dp"
         android:text="Aircraft Maintenance" />
 
     <TextView
@@ -36,5 +36,14 @@
         android:layout_centerVertical="true"
         android:text="Current Security Checkpoint Wait Time : 1m 32s"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Inventory & Package Management" />
 
 </RelativeLayout>
