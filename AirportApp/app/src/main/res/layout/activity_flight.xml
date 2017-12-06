@@ -19,6 +19,7 @@
         android:layout_alignParentEnd="true"
         android:weightSum="1">
 
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="246dp"
@@ -32,7 +33,8 @@
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/rectangle">
+                    android:background="@drawable/rectangle"
+                    android:clickable="true">
 
                     <TextView
                         android:text=" Type "
@@ -73,7 +75,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:clickable="true">
 
                     <TextView
                         android:text="DEPT"
@@ -114,7 +117,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:clickable="true">
 
                     <TextView
                         android:text="DEPT"
@@ -155,7 +159,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:clickable="true">
 
                     <TextView
                         android:text="DEPT"
@@ -196,7 +201,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:clickable="true">
 
                     <TextView
                         android:text="ARR"
@@ -237,7 +243,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:clickable="true">
 
                     <TextView
                         android:text="DEPT"
@@ -284,7 +291,8 @@
             android:text="Book Flight Ticket"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button8" />
+            android:id="@+id/button8"
+            android:onClick="bookClicked" />
 
         <Button
             android:text="Manage Flight"

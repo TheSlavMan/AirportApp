@@ -10,35 +10,45 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.adam.airportapp.EmployeeActivity">
 
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="15dp"
-        android:text="Check In" />
-
-    <Button
-        android:id="@+id/button20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button15"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="21dp"
-        android:layout_marginRight="21dp"
-        android:text="Check Out" />
+        android:layout_alignParentEnd="true"
+        android:weightSum="1">
 
-    <Button
-        android:id="@+id/button21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button20"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="56dp"
-        android:text="      My Schedule      " />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="146dp">
+
+            <Button
+                android:text="Check In"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button22"
+                android:layout_weight="1"
+                android:onClick="inClicked" />
+
+            <Button
+                android:text="Check Out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button15"
+                android:layout_weight="1"
+                android:onClick="outClicked" />
+        </LinearLayout>
+
+        <Button
+            android:text="Work Schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button24"
+            android:onClick="viewClicked" />
+
+
+    </LinearLayout>
+
 </RelativeLayout>

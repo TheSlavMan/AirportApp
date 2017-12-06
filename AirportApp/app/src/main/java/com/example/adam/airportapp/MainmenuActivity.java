@@ -16,6 +16,7 @@ public class MainmenuActivity extends AppCompatActivity
     public void flightsClick(View view)
     {
         Intent flight = new Intent(this, FlightActivity.class);
+        flight.putExtra("ACC_LVL", new Integer(1));
         startActivity(flight);
     }
 

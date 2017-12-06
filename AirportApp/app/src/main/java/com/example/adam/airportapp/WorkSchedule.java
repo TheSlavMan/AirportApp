@@ -13,6 +13,7 @@ public class WorkSchedule extends AppCompatActivity {
     {
         finish();
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {

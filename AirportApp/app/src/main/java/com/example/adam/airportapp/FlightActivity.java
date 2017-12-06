@@ -1,7 +1,9 @@
 package com.example.adam.airportapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class FlightActivity extends AppCompatActivity {
@@ -18,5 +20,11 @@ public class FlightActivity extends AppCompatActivity {
             btn.setAlpha(.5f);
             btn.setClickable(false);
         }
+    }
+
+    public void bookClicked(View view)
+    {
+        Intent book = new Intent(this, BookActivity.class);
+        startActivity(book);
     }
 }
