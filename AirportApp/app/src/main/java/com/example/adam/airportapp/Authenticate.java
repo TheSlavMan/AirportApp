@@ -25,9 +25,10 @@ public class Authenticate extends AppCompatActivity {
         startActivity(reportIntent);
     }
 
-    public void WorkSchedule(View view) {
-        Intent WorkSchedule = new Intent(this, WorkSchedule.class);
-        startActivity(WorkSchedule);
+    public void viewClicked(View view) {
+        Intent viewIntent = new Intent(this, FlightActivity.class);
+        viewIntent.putExtra("ACC_LVL", new Integer(0));
+        startActivity(viewIntent);
     }
 
     protected void onActivityResult(int reqCode, int resCode, Intent data)
